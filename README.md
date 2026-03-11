@@ -1,2 +1,8 @@
 # siema
-to jest plik readme, tutaj zazwyczaj wpisuje się nieistotne śmieci, których nikt nie czyta
+
+merge feature-max do main nie był fast-forward bo użyłem:
+```
+git merge --no-ff feature-max
+```
+
+czyli został dodany commit z komunikatem o zmergowaniu tych branchów do main
