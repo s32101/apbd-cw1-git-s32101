@@ -4,7 +4,8 @@ class StatisticsHelper {
         return values.Average();
     }
 
-    public static double CalculateMax(int[] values) {
+    // tutaj zwracana jest najwieksza wartosc
+    public static int CalculateMax(int[] values) {
         return values.Max();
     }
 }
