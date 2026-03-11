@@ -9,7 +9,10 @@ class StatisticsHelper {
         return values.Max();
     }
 
+// tu zostanie zwrocona najmniejsza wartość
+// wszystko dzięki magii interfejsu IEnumerable<T>,
+// ktory jest lepszy od stream api z javy
     public static int CalculateMin(int[] values) {
-        
+
     }
 }
