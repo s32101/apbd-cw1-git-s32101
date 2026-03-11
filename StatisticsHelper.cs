@@ -13,6 +13,6 @@ class StatisticsHelper {
 // wszystko dzięki magii interfejsu IEnumerable<T>,
 // ktory jest lepszy od stream api z javy
     public static int CalculateMin(int[] values) {
-
+        return values.Min();
     }
 }
