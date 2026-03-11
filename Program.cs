@@ -2,4 +2,4 @@
 Console.WriteLine("Hello, PJATK!");
 Console.WriteLine();
 
-Console.WriteLine("Super Kalkulator 6000 PRO MAX Ultra Galaxy 2")
+Console.WriteLine("Super Kalkulator 6000 PRO MAX Ultra Galaxy 2");
