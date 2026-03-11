@@ -3,4 +3,9 @@ class StatisticsHelper {
     public static double CalculateAverage(int[] values) {
         return values.Average();
     }
+
+    // tutaj zwracana jest najwieksza wartosc
+    public static int CalculateMax(int[] values) {
+        return values.Max();
+    }
 }
