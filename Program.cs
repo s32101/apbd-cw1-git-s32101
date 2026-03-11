@@ -19,3 +19,9 @@ Console.WriteLine("Trwa liczenie.. (:");
 Thread.Sleep(5000); // teraz program jest lepszy
 
 Console.WriteLine("a + b = " + (a + b));
+Console.WriteLine();
+
+int[] array = new int[] { 1, 2, 3 };
+Console.WriteLine("zobacz zobacz mamy array int[] { 1, 2, 3 } to teraz wywolamy klase z zadania:");
+Console.WriteLine("srednia: " + StatisticsHelper.CalculateAverage(array));
+Console.WriteLine("max: " + StatisticsHelper.CalculateMax(array));
